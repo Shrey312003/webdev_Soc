@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="mal.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="mal.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <div class="row justify-content-center">
+        <div class="container col-md-10 col-md-offset-1">
+            <div style="display:none" id="input_box">
+                <center>
+                <h2>Anime details</h2>
+                </center>
+                <form>
+                    <div class="mb-3">
+                      <label for="Name" class="form-label">Name</label>
+                      <input type="text" class="form-control" id="name_txt" >
+                    </div>
+                    <div class="mb-3">
+                      <label for="pic" class="form-label">Picture</label>
+                      <input type="text" class="form-control" id="pic_txt">
+                    </div>
+                    <div class="mb-3">
+                        <label for="score" class="form-label">Score</label>
+                        <input type="text" class="form-control" id="score_txt">
+                    </div>
+                    
+                    <div class="sub_btn">
+                    <button class=" btn btn-primary" id="sub_btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        <div class="col-auto">
+        <center>
+            <h1>My Anime List</h1>
+        </center>
+        <table class="table table table-dark table-hover" id="mal_table">
+            <thead>
+                <tr>
+                <th scope="col">#</th>
+                <th scope="col">Pic</th>
+                <th scope="col">Name</th>
+                <th scope="col">Score</th>
+                </tr>
+            </thead>
+            <tbody id="anime">
+                <!-- <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                </tr>
+                <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                </tr>
+                <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+                </tr> -->
+            </tbody>
+    </table>
+    <div>
+        <button id="add_anime">Add to list</button>
+    </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

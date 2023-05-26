@@ -1,0 +1,45 @@
+.name_class{
+    width: 50%;
+}
+
+th{
+    font-size: large;
+    color: blue;
+}
+
+h1{
+    font-size:48px;
+    color:rgb(46, 46, 231);
+    /* /* text-transform: capitalize; */
+    font-family:sans-serif; 
+    font-weight: bolder;
+}
+table{
+    margin-top: 40px;
+}
+
+#input_box {
+    border: 1px solid rgb(167, 167, 167);
+    /* padding:3%; */
+    width: 400px;
+    height: 325px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+form{
+    margin:3%;
+}
+
+.sub_btn{
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto ;
+    
+}
+
+td{
+    font-size: 18px;
+    font-weight: 400;
+    color: darkolivegreen;
+}
